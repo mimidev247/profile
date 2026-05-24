@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Miracle - Portfolio</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background elements for rich aesthetics -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- Main Content Container with Glassmorphism -->
+    <div class="container glass-panel">
+
+        <!-- Header Section: Profile Picture and Name -->
+        <header>
+            <div class="profile-pic-container">
+                <img src="Miracle.jpg" alt="Samuel Miracle Profile Picture" class="profile-pic">
+            </div>
+            <h1>Samuel Miracle</h1>
+            <p class="tagline">Creative Web & Mobile Developer </p>
+        </header>
+
+        <!-- Biography Section -->
+        <section class="biography">
+            <h2>About Me</h2>
+            <p>Hello! I'm Samuel, a passionate web developer with a keen eye for modern, aesthetic designs. I love
+                bringing ideas to life through code and building interactive experiences that WOW users. With a strong
+                foundation in frontend technologies, I focus on creating responsive, accessible, and highly engaging web
+                applications.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <h2>Skills & Interests</h2>
+            <div class="skills-list">
+                <!-- Individual skill tags -->
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">Vanilla JavaScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">React Native</span>
+                <span class="skill-tag">Email.JS</span>
+                <span class="skill-tag">TailwindCSS</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">GitHub</span>
+                <span class="skill-tag">Framer Motion</span>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Let's build something amazing together!</p>
+            <div class="contact-links">
+                <a href="mailto:sammiracle66@gmail.com" class="btn">Email Me</a>
+                <a href="https://www.linkedin.com/in/miracle-samuel-507a0631b" class="btn btn-outline">LinkedIn</a>
+            </div>
+        </section>
+
+        <!-- Theme Toggle Button (Changes background color logic handled in JS) -->
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+            <!-- Sun Icon for Light Mode (hidden in dark mode) -->
+            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <!-- Moon Icon for Dark Mode (hidden in light mode) -->
+            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
